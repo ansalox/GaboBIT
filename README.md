@@ -2,54 +2,7 @@
 Proyecto realizado para el Bootcamp Desarrollo Web Full Stack de BIT, donde se explica como crear una página web básica solo usando HTML y CSS sin ningun framework para comprender las báses de estas dos herramientas.
 
 
-#CSS
-*: Es un selector universal que se aplica a todos los elementos de la página web. En este caso, se establecen ciertas propiedades en cero para asegurar que no haya márgenes, rellenos y que la fuente sea la especificada.
 
-margin: 0;: Define el margen del elemento, que en este caso se establece en 0, lo que significa que no hay ningún margen alrededor de ningún elemento.
-
-padding: 0;: Define el relleno del elemento, que en este caso se establece en 0, lo que significa que no hay ningún relleno dentro de ningún elemento.
-
-font-family: "Libre Baskerville", serif;: Establece la familia de fuentes para todos los elementos de la página. En este caso, se utiliza "Libre Baskerville" como fuente principal y "serif" como fuente secundaria.
-
-body: Se aplica a todo el cuerpo de la página, estableciendo su estilo.
-
-font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;: Establece la familia de fuentes para el texto del cuerpo de la página. En este caso, se utilizan varias fuentes diferentes en caso de que alguna de ellas no esté disponible en el sistema del usuario.
-
-background-color: #b4c2dd;: Establece el color de fondo del cuerpo de la página en un tono de azul claro.
-
-.header: Hace referencia a la clase "header" en el HTML, que es un elemento específico de la página, como un encabezado. Se establece su altura y color de fondo.
-
-height: 70px;: Establece la altura de la sección de encabezado en 70 píxeles.
-
-background-color: #c48424;: Establece el color de fondo de la sección de encabezado en un tono marrón.
-
-.logo: Hace referencia a la clase "logo" en el HTML, que se utiliza para definir el estilo de un logotipo. Se establece que este logotipo flote a la izquierda y tenga un relleno de 10 píxeles.
-
-.menu: Hace referencia a la clase "menu" en el HTML, que se utiliza para definir el estilo de un menú de navegación.
-
-float: right;: Establece que el elemento "menu" flote a la derecha.
-
-margin: 24px;: Establece un margen de 24 píxeles alrededor del elemento "menu".
-
-.menu ul: Se aplica a la lista desordenada (ul) dentro del elemento "menu".
-
-list-style: none;: Elimina los puntos de la lista desordenada y los sustituye por un guion.
-
-.menu li: Hace referencia a cada elemento de la lista en el menú de navegación.
-
-display: inline-block;: Establece que los elementos de la lista se muestren en una línea horizontal y puedan ser afectados por margenes y paddings.
-
-margin-right: 10px;: Establece un margen de 10 píxeles a la derecha de cada elemento de la lista, excepto el último.
-
-.menu a: Hace referencia a los enlaces dentro de cada elemento de la lista en el menú de navegación.
-
-color: black;: Establece el color del texto de los enlaces a negro.
-
-text-decoration: none;: Elimina el subrayado predeterminado de los enlaces.
-
-padding: 15px;: Establece un relleno de 15 píxeles alrededor de cada enlace en el menú de navegación.
-
-font-weight: bold;: Establece la fuente en negrita para los enlaces en el menú de navegación.
 
 # HTML
 
@@ -99,4 +52,54 @@ font-weight: bold;: Establece la fuente en negrita para los enlaces en el menú 
 La etiqueta <meta> se utiliza para proporcionar información adicional sobre la página web en el encabezado HTML. Se pueden utilizar varias etiquetas meta para proporcionar diferentes tipos de información, como el autor del sitio web, palabras clave relevantes para el contenido de la página, descripción del contenido de la página, la codificación de caracteres utilizada, la vista previa de la página web en redes sociales, etc.
 
 Algunos de los atributos más comunes que se usan con la etiqueta <meta> son charset, name, content, http-equiv, y viewport. El atributo charset define el juego de caracteres utilizado en la página web, el atributo name se usa para definir nombres de metadatos personalizados, el atributo content se utiliza para proporcionar el contenido asociado con los metadatos, el atributo http-equiv se utiliza para especificar información adicional que puede ser utilizada por los navegadores web o motores de búsqueda, y el atributo viewport se utiliza para definir la ventana gráfica visible de la página web en dispositivos móviles.
+  
+  # CSS
+
+*: Es un selector universal que se aplica a todos los elementos de la página web. En este caso, se establecen ciertas propiedades en cero para asegurar que no haya márgenes, rellenos y que la fuente sea la especificada.
+
+margin: 0;: Define el margen del elemento, que en este caso se establece en 0, lo que significa que no hay ningún margen alrededor de ningún elemento.
+
+padding: 0;: Define el relleno del elemento, que en este caso se establece en 0, lo que significa que no hay ningún relleno dentro de ningún elemento.
+
+font-family: "Libre Baskerville", serif;: Establece la familia de fuentes para todos los elementos de la página. En este caso, se utiliza "Libre Baskerville" como fuente principal y "serif" como fuente secundaria.
+
+body: Se aplica a todo el cuerpo de la página, estableciendo su estilo.
+
+font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;: Establece la familia de fuentes para el texto del cuerpo de la página. En este caso, se utilizan varias fuentes diferentes en caso de que alguna de ellas no esté disponible en el sistema del usuario.
+
+background-color: #b4c2dd;: Establece el color de fondo del cuerpo de la página en un tono de azul claro.
+
+.header: Hace referencia a la clase "header" en el HTML, que es un elemento específico de la página, como un encabezado. Se establece su altura y color de fondo.
+
+height: 70px;: Establece la altura de la sección de encabezado en 70 píxeles.
+
+background-color: #c48424;: Establece el color de fondo de la sección de encabezado en un tono marrón.
+
+.logo: Hace referencia a la clase "logo" en el HTML, que se utiliza para definir el estilo de un logotipo. Se establece que este logotipo flote a la izquierda y tenga un relleno de 10 píxeles.
+
+.menu: Hace referencia a la clase "menu" en el HTML, que se utiliza para definir el estilo de un menú de navegación.
+
+float: right;: Establece que el elemento "menu" flote a la derecha.
+
+margin: 24px;: Establece un margen de 24 píxeles alrededor del elemento "menu".
+
+.menu ul: Se aplica a la lista desordenada (ul) dentro del elemento "menu".
+
+list-style: none;: Elimina los puntos de la lista desordenada y los sustituye por un guion.
+
+.menu li: Hace referencia a cada elemento de la lista en el menú de navegación.
+
+display: inline-block;: Establece que los elementos de la lista se muestren en una línea horizontal y puedan ser afectados por margenes y paddings.
+
+margin-right: 10px;: Establece un margen de 10 píxeles a la derecha de cada elemento de la lista, excepto el último.
+
+.menu a: Hace referencia a los enlaces dentro de cada elemento de la lista en el menú de navegación.
+
+color: black;: Establece el color del texto de los enlaces a negro.
+
+text-decoration: none;: Elimina el subrayado predeterminado de los enlaces.
+
+padding: 15px;: Establece un relleno de 15 píxeles alrededor de cada enlace en el menú de navegación.
+
+font-weight: bold;: Establece la fuente en negrita para los enlaces en el menú de navegación.
 
